@@ -1,0 +1,48 @@
+======================================================================
+BIMAMBA-TRANSFORMER EVALUATION REPORT
+======================================================================
+Timestamp: 2026-04-24 12:45:35
+Checkpoint: checkpoints/best_model.pth
+Data Path: data/DEAP/deap_preprocessed.npz
+
+--- VALENCE ---
+  Accuracy:     0.6234
+  Precision:    0.6147
+  Recall:       0.9338
+  F1-Score:     0.7414
+  AUC-ROC:      0.5814
+  AUC-PR:       0.6271
+  MCC:          0.1990
+  Sensitivity:  0.9338
+  Specificity:  0.1980
+  Samples:      1856
+
+--- AROUSAL ---
+  Accuracy:     0.6455
+  Precision:    0.7028
+  Recall:       0.7738
+  F1-Score:     0.7366
+  AUC-ROC:      0.6039
+  AUC-PR:       0.6927
+  MCC:          0.2005
+  Sensitivity:  0.7738
+  Specificity:  0.4168
+  Samples:      1856
+
+--- DOMINANCE ---
+  Accuracy:     0.7236
+  Precision:    0.7031
+  Recall:       0.9840
+  F1-Score:     0.8202
+  AUC-ROC:      0.6116
+  AUC-PR:       0.6898
+  MCC:          0.3835
+  Sensitivity:  0.9840
+  Specificity:  0.2594
+  Samples:      1856
+
+--- MEAN ---
+  Accuracy:  0.6642
+  F1-Score:  0.7661
+  AUC-ROC:   0.5989
+  MCC:       0.2610
